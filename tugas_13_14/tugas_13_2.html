@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Form Html</title>
+</head>
+
+<body>
+    <!-- <h1>HALAMAN MASUK</h1>
+    <form>
+        <input type="text" name="username" placeholder="user"><br><br>
+        <input type="password" name="password" id="password"><br><br>
+        <button>Masuk akun</button>
+    </form> -->
+    <h1><u>FORM LOGIN</u></h1>
+    <form>
+        <h4>Jumlah Minimal 4, Maksimal 8 karakter </h4>
+        <input type="text" name="username" placeholder="Input Username" minlength="4" maxlength="8" required
+            oninvalid="this.setCustomValidity('maksimal 8')"><br>
+        <h4>Jumlah Minimal 5, Maksimal 15 karakter </h4>
+        <input type="password" name="password" id="password" placeholder="Input Pin" maxlength="15"
+            minlength="4"><br><br>
+        <input type="submit" name="Simpan">
+    </form>
+</body>
+
+</html>
